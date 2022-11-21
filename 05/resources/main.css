@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+  padding-top: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
+  font-family: "Montserrat", sans-serif;
+}
+.header {
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.side {
+  bottom: 0;
+  width: 50px;
+  left: 0;
+  top: 0;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.dot {
+  height: 20px;
+  width: 20px;
+  background-color: black;
+  border-radius: 50%;
+}
+#one {
+  outline: 1px solid;
+  outline-offset: 2px;
+}
+div.floatRight img {
+  position: absolute;
+  left: 60%;
+  bottom: 0;
+}
+nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  flex: 1;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+}
+#h {
+  border-bottom: 2px solid;
+}
+.right-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 30px;
+}
+.shop-bag {
+  height: 24px;
+}
+.user {
+  height: 24px;
+}
+.search {
+  height: 24px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 900px;
+  align-items: start;
+  height: 85vh;
+}
+.content h1 {
+  display: flex;
+  font-size: 150px;
+  margin-bottom: 20px;
+}
+.des {
+  font-size: 20px;
+}
+.content a {
+  text-decoration: none;
+  display: flex;
+  color: white;
+  background-color: rgba(68, 117, 68, 0.902);
+  padding: 30px;
+  font-size: 30px;
+  border-radius: 50px;
+  margin-top: 50px;
+  gap: 5px;
+}
+.dir {
+  width: 20px;
+}
+.icon-grid {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  max-width: 900px;
+}
+.icon-info-grid {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  align-items: center;
+  column-gap: 5px;
+}
+.feed {
+  align-self: center;
+  width: 100px;
+  rotate: -30deg;
+  -webkit-transform: scaleX(-2);
+  transform: scaleX(-1);
+}
+.icon-title {
+  font-size: 25px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.icon-des {
+  font-size: 15px;
+}
+.light {
+  width: 100px;
+}
+.dig {
+  width: 100px;
+}

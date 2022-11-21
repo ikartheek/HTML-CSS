@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Orbitron:wght@400;500;600&family=Roboto:wght@100&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box; */
+  font-family: "Orbitron", sans-serif;
+}
+body {
+  font-size: 100%;
+  margin: 20px;
+  height: auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.logo img {
+  width: 100px;
+  margin-right: 15px;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-size: 19px;
+  font-weight: bold;
+}
+nav ul a {
+  padding: 10px;
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.search {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: space-around;
+}
+input {
+  border-radius: 6px;
+  height: 30px;
+  padding: 5px;
+  width: 120px;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+main {
+  display: flex;
+  align-items: initial;
+  justify-content: space-between;
+}
+.photo {
+  margin-top: 15px;
+  padding-left: 10px;
+  position: relative;
+  display: flex;
+}
+.photo .one {
+  height: 800px;
+  margin-top: 25px;
+}
+.photo .two {
+  height: 600px;
+  top: 30%;
+  left: 30%;
+  z-index: -1;
+  position: absolute;
+}
+.content {
+  text-align: center;
+  margin: 10% 10%;
+}
+
+.pic {
+  position: relative;
+  margin-bottom: 120px;
+}
+.content h1 {
+  margin: 10px;
+}
+.pic .one {
+  position: absolute;
+  left: 25%;
+  bottom: 95%;
+}
+.pic .two {
+  position: absolute;
+  left: 50%;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 35px;
+  margin: 25px 0px;
+}
+form .email {
+  font-family: "Orbitron", sans-serif;
+  border-radius: 10px;
+  height: 35px;
+  padding: 5px;
+  width: 180px;
+  text-align: center;
+  font-size: 18px;
+}
+form .submit {
+  font-family: "Orbitron", sans-serif;
+  border-radius: 10px;
+  background: #000;
+  color: white;
+  padding: 5px;
+  width: 120px;
+  text-align: center;
+  font-size: 18px;
+}
+h1 {
+  font-size: 60px;
+}
+p {
+  font-family: sans-serif;
+  margin: 0px 10px;
+  font-size: large;
+}
+.social img {
+  margin: 0px 10px;
+}

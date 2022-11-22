@@ -97,13 +97,13 @@ header .user {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 25px;
+
   position: relative;
 }
 .discount {
   position: absolute;
-  right: 76%;
-  bottom: 28%;
+  right: 75%;
+  bottom: 29%;
   filter: drop-shadow(-0.2em 0.6em #808080ad);
 }
 .offer {

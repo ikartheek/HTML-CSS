@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px 50px;
+}
+header .logo {
+  width: 120px;
+}
+header .navigation {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 15px 0px;
+}
+header .navigation li {
+  list-style: none;
+  margin: 0 20px;
+}
+header .navigation li a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+header .navigation li a:hover {
+  color: orangered;
+  font-weight: bold;
+}
+header .user {
+  position: relative;
+}
+.banner {
+  margin: 0px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.banner .content ul li {
+  list-style: none;
+}
+
+.banner .content h2 {
+  font-size: 50px;
+  font-weight: 400;
+  display: inline-block;
+}
+.banner .content h2::after {
+  margin-left: 20px;
+  content: url("/resources/images/circles.svg");
+  position: absolute;
+}
+.banner .content h1 {
+  font-family: "Fredoka", sans-serif;
+  margin-top: 25px;
+  font-size: 90px;
+  font-weight: 700;
+}
+.features {
+  padding-left: 90px;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 4rem;
+}
+.fa {
+  color: orangered;
+  font-size: 40px;
+  margin-right: 15px;
+}
+.banner p {
+  color: lightgrey;
+}
+.btn1,
+.btn2 {
+  background-color: orangered;
+  color: white;
+  font-size: 25px;
+  margin-right: 50px;
+  padding: 15px 25px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 25px;
+  position: relative;
+}
+.discount {
+  position: absolute;
+  right: 76%;
+  bottom: 28%;
+  filter: drop-shadow(-0.2em 0.6em #808080ad);
+}
+.offer {
+  position: absolute;
+  right: 80%;
+  bottom: 35%;
+  text-align: center;
+}
+.offer p {
+  color: white;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 900;
+}
+.color-dots {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+.dot1 {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(243, 200, 91);
+  border-radius: 50%;
+}
+.dot2 {
+  height: 30px;
+  width: 30px;
+  background-color: orangered;
+  border-radius: 50%;
+}
+.dot3 {
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  border-radius: 50%;
+}
+.product-btn {
+  background-color: orangered;
+  color: white;
+  font-size: 25px;
+  padding: 15px 25px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}

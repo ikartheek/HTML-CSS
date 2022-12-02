@@ -6,21 +6,23 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   padding: 20px 50px;
+  min-height: 100%;
 }
 header .logo {
   width: 120px;
 }
 header .navigation {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 15px 0px;
+  /* justify-content: center; */
+  flex-shrink: 1;
+  /* margin: 15px 0px; */
 }
 header .navigation li {
   list-style: none;
@@ -40,6 +42,13 @@ header .navigation li a:hover {
 header .user {
   position: relative;
 }
+
+label{
+  display: none;
+  font-size: 30px;
+  font-weight: bold;
+}
+
 .banner {
   margin: 0px 100px;
   display: flex;
@@ -148,4 +157,30 @@ header .user {
   border-radius: 30px;
   border: none;
   cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  label {
+    display:block;
+    cursor: pointer;
+  }
+
+  .navigation li a,
+  .user {
+    display: none;
+  }
+
+  .banner  {
+    flex-direction: column-reverse;
+   height: 100%;
+align-items: center;
+
+  }
+  .product {
+    margin-bottom: 50px;
+  }
+
+  .dot1, .dot2, .dot3{
+    outline: 2px solid rgb(255, 78, 50);
+  }
 }

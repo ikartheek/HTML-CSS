@@ -1,0 +1,13 @@
+.current{
+    border-bottom: 3px solid var(--primary-color);
+}
+
+.nav li a:hover{
+    border-bottom: 3px solid var(--primary-color);
+    transition:all 0.8s ease ;
+}
+
+.btn-current:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
